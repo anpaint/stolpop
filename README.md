@@ -4,11 +4,15 @@ Short Takeoff and Landing Plane Optimization
 ## Directory Layout
 
 ```
+├── models/
+│   ├── avl.exe
+│   └── xfoil.exe
 ├── src/
 │   └── stolpop/
 │       ├── methods/
-│       ├── models/
+│       │   └── __init__.py
 │       └── utilities/
+│           └── __init__.py
 ├── .gitignore
 ├── pyproject.toml
 ├── README.md
