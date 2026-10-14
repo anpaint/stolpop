@@ -3,6 +3,21 @@ Short TakeOff and Landing Plane OPtimization
 
 
 # Directory Layout
+
+├── src/
+│   └── stolpop/
+│       ├── methods/
+│       │   └── __init__.py
+│       ├── models/
+│       │   ├── avl.exe
+│       │   └── xfoil.exe
+│       └── utilities/
+│           └── __init__.py
+├── .gitignore
+├── pyproject.toml
+├── README.md
+└── requirements.txt
+
 methods:
     Specific functions that will likely be used once in the overall process.
     One method should not include another (or at least try to).
