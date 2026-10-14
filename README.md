@@ -1,6 +1,9 @@
 # stolpop
 Short Takeoff and Landing Plane Optimization
 
+## Ideas for layout
+
+
 ## Directory Layout
 
 ```
