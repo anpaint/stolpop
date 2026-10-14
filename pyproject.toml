@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stolpop"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "NeuralFoil",
+    "optvl",
+    "AeroSandbox",
+    "pandas",
+    "SciPy",
+    "openmdao",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

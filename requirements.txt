@@ -1,0 +1,8 @@
+    numpy
+    matplotlib
+    NeuralFoil
+    optvl
+    AeroSandbox
+    matplotlib
+    pandas
+    SciPy
