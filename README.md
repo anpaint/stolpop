@@ -3,7 +3,7 @@ Short TakeOff and Landing Plane OPtimization
 
 
 # Directory Layout
-
+'''
 ├── src/
 │   └── stolpop/
 │       ├── methods/
@@ -17,6 +17,7 @@ Short TakeOff and Landing Plane OPtimization
 ├── pyproject.toml
 ├── README.md
 └── requirements.txt
+'''
 
 methods:
     Specific functions that will likely be used once in the overall process.
