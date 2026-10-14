@@ -7,12 +7,8 @@ Short Takeoff and Landing Plane Optimization
 ├── src/
 │   └── stolpop/
 │       ├── methods/
-│       │   └── __init__.py
 │       ├── models/
-│       │   ├── avl.exe
-│       │   └── xfoil.exe
 │       └── utilities/
-│           └── __init__.py
 ├── .gitignore
 ├── pyproject.toml
 ├── README.md
