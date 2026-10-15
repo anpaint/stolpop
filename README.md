@@ -29,6 +29,7 @@ NeuralFoil
 - **utilities/**: General functions that are used within methods. Each function should be its own `.py` file.
 - **scripts/**: Any one-time run/executable scripts.
 - **tests/**: Test scripts to test functions or algorithms. Can be unit tests or whole optimizations.
+- **models/**: Any external model or executable, e.g. XFOIL Alex -Testing push.
 - **models/**: Any external model or executable, e.g. XFOIL.
 
 Doing it like this is the way I saw it done at BCA and online at other GitHubs
