@@ -2,7 +2,11 @@
 Short Takeoff and Landing Plane Optimization
 
 ## Ideas for layout
-So optimizer needs gradient ->
+So optimizer needs gradient information, OptVL provides gradient stuff but need
+to investigate how nicely that plays with CDCL and CLALFA settings. XFOIL
+obviously does not provide gradients but CMPLXFOIL does so might be worth
+looking into that, although it does require Linux/Docker Image (yikes).
+NeuralFoil
 
 
 ## Directory Layout
@@ -26,3 +30,7 @@ So optimizer needs gradient ->
 - **scripts/**: Any one-time run/executable scripts.
 - **tests/**: Test scripts to test functions or algorithms. Can be unit tests or whole optimizations.
 - **models/**: Any external model or executable, e.g. XFOIL.
+
+Doing it like this is the way I saw it done at BCA and online at other GitHubs
+and it generally just makes it cleaner to write and track things. Obviously feel
+free to mess with whatever but figured this was a good starting point.
