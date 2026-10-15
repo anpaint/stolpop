@@ -2,6 +2,7 @@
 Short Takeoff and Landing Plane Optimization
 
 ## Ideas for layout
+So optimizer needs gradient ->
 
 
 ## Directory Layout
